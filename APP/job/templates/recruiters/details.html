@@ -1,0 +1,21 @@
+{% extends "users/layout.html" %} {% load static %} {% block content %}
+<br /><br />
+<div style="background-color: white">
+  <div class="row">
+    <div class="col-md-6">
+      <div style="background: transparent !important" >
+        <h1 class="display-4 text-center">
+          Hire the  best candidate here!
+        </h1>
+        <p class="lead text-center">
+          <a
+            class="btn btn-primary btn-lg"
+            href="{% url 'add-job' %}"
+            role="button"
+            >Hire Now!</a
+          >
+        </p>
+      </div>
+    </div>
+  {% endblock %}
+</div>
